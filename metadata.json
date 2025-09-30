@@ -1,0 +1,5 @@
+{
+  "name": "Skiddo",
+  "description": "A sleek dashboard for real-time and historical Formula 1 data, including precise car positioning, race schedules, and live timing.",
+  "requestFramePermissions": []
+}
