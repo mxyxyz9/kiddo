@@ -5,6 +5,7 @@ import RaceTracker from './components/RaceTracker';
 import ViewToggle from './components/ViewToggle';
 import YearSelector from './components/YearSelector';
 import RaceDetail from './components/RaceDetail';
+import Footer from './components/Footer';
 import type { View, SeasonYear, RaceSession } from './types';
 
 const App: React.FC = () => {
@@ -43,9 +44,7 @@ const App: React.FC = () => {
           {renderContent()}
         </div>
       </main>
-      <footer className="text-center py-6 text-[#666666]">
-        <p className="text-sm">Skiddo F1 Dashboard</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
